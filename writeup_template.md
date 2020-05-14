@@ -5,10 +5,7 @@
 
 This project was developed in python using openCV libraries in jupyter notebook. The code uses predefined functions to achieve the project goals.
 
-
-[//]: # (Image References)
-
-[image1]: ./test_images/O_solidWhiteCurve.jpg
+<img src="test_images/solidYellowCurve2.jpg" width="480" alt="Image3" />
 
 ---
 
@@ -146,13 +143,15 @@ result = weighted_img(line_image,image)
 
 * **Annotated outputs**
 
-<img src="test_images/O_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images/O_solidWhiteCurve.jpg" width="480" alt="Image1" />
 
-![Annotated 2](./test_images/O_solidWhiteRight.jpg)
-![Annotated 4](./test_images/O_solidYellowCurve2.jpg)
-![Annotated 5](./test_images/O_solidYellowLeft.jpg)
-![Annotated 6](./test_images/O_whiteCarLaneSwitch.jpg)
+<img src="test_images/O_solidWhiteRight.jpg" width="480" alt="Image2" />
 
+<img src="test_images/O_solidYellowCurve2.jpg" width="480" alt="Image3" />
+
+<img src="test_images/O_solidWhiteLeft.jpg" width="480" alt="Image4" />
+
+<img src="test_images/O_whiteCarLaneSwitch.jpg" width="480" alt="Image5" />
 
 ### 2. Identify potential shortcomings with your current pipeline
 
