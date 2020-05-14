@@ -146,12 +146,11 @@ result = weighted_img(line_image,image)
 
 * **Annotated outputs**
 
-![Annotated 1](./test_images/O_solidWhiteCurve.jpg)
-![Annotated 2](./test_images/O_solidWhiteRight.jpg)
-![Annotated 3](./test_images/O_solidYellowCurve.jpg)
-![Annotated 4][./test_images/O_solidYellowCurve2.jpg]
-![Annotated 5][./test_images/O_solidYellowLeft.jpg]
-![Annotated 6][./test_images/O_whiteCarLaneSwitch.jpg]
+![Annotated 1](./test_images/O_solidWhiteCurve.jpg =100x20)
+![Annotated 2](./test_images/O_solidWhiteRight.jpg =100x20)
+![Annotated 4](./test_images/O_solidYellowCurve2.jpg)
+![Annotated 5](./test_images/O_solidYellowLeft.jpg)
+![Annotated 6](./test_images/O_whiteCarLaneSwitch.jpg)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
