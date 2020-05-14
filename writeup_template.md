@@ -30,12 +30,12 @@ kernel_size= 5
 img_blur=gaussian_blur(gray,kernel_size)
 ```
 
-The thresholds were canny edges were arrived at by experiments and min_val=90 and max_val=190 worked well for the given set of examples
+The thresholds for canny edges were arrived at by experiments and min_val=90 and max_val=190 worked well for the given set of examples
 
 `canny_edges=canny(img_blur, 90,190)`
 
 * **Finding region of interest**
-The region of interest was identified to ensure that the lane lines shown in the images/videos are being encapsulated in the polygon.
+The region of interest was identified to ensure that the lane lines shown in the images/videos are nicely inside the polygon.
 
 ```
 vertices = np.array([[(50,imshape[0]),(imshape[1]/2.05,imshape[0]/1.7), (imshape[1]/1.95,imshape[0]/1.7), (imshape[1],imshape[0])]], dtype=np.int32)
@@ -44,7 +44,7 @@ mask_edges = region_of_interest(canny_edges, vertices)
 
 * **Apply houghlines algorthm to find lanes in image**
 
-Tuning the various parameters (rho,theta,min_length,line_gap) and applying houghlines algorithm to extract lines from the above processed image
+Tuning the various parameters (rho,theta,min_length,line_gap,threshold) and applying houghlines algorithm to extract lines from the above processed image
 
 ```
 rho = 2 
@@ -136,7 +136,7 @@ def drawLaneLines(img,lines):
 ```
 
 * **Drawling lane lines on the original image**
-Finally, lane llines were drawn on the orginal image (video frames) to annotate the lanes in the video frames
+Finally, lane lines were drawn on the orginal image (video frames) to annotate the lanes in the video frames
 
 ```
 result = weighted_img(line_image,image)
