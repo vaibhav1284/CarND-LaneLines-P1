@@ -146,7 +146,8 @@ result = weighted_img(line_image,image)
 
 * **Annotated outputs**
 
-![](./test_images/O_solidWhiteCurve.jpg) <!-- .element height="50%" width="50%" -->
+<img src="test_images/O_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+
 ![Annotated 2](./test_images/O_solidWhiteRight.jpg)
 ![Annotated 4](./test_images/O_solidYellowCurve2.jpg)
 ![Annotated 5](./test_images/O_solidYellowLeft.jpg)
