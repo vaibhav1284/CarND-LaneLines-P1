@@ -146,8 +146,8 @@ result = weighted_img(line_image,image)
 
 * **Annotated outputs**
 
-![Annotated 1](./test_images/O_solidWhiteCurve.jpg){: width=150 height=100 style="float:right; padding:16px"}
-![Annotated 2](./test_images/O_solidWhiteRight.jpg =250x)
+![](./test_images/O_solidWhiteCurve.jpg =100x20)
+![Annotated 2](./test_images/O_solidWhiteRight.jpg)
 ![Annotated 4](./test_images/O_solidYellowCurve2.jpg)
 ![Annotated 5](./test_images/O_solidYellowLeft.jpg)
 ![Annotated 6](./test_images/O_whiteCarLaneSwitch.jpg)
@@ -155,9 +155,9 @@ result = weighted_img(line_image,image)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-Potential shortcomings in the pipeline is as follows :
+Potential shortcomings in the pipeline are as follows :
 * Noisy data (rainy/dusty/dark/shahow) may lead to missing lane lines
-* Steep curves or steep ascedent/descent would require further tests and tuning parameters
+* Steep curves or steep ascent/descent would require further tests and tuning parameters
 * In case of no lane markings (missing lane lines in roads for a patch), lanes lines may not be drawn
 
 ### 3. Suggest possible improvements to your pipeline
