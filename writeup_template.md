@@ -146,7 +146,7 @@ result = weighted_img(line_image,image)
 
 * **Annotated outputs**
 
-![Annotated 1](./test_images/O_solidWhiteCurve.jpg =250x)
+![Annotated 1](./test_images/O_solidWhiteCurve.jpg){: width=150 height=100 style="float:right; padding:16px"}
 ![Annotated 2](./test_images/O_solidWhiteRight.jpg =250x)
 ![Annotated 4](./test_images/O_solidYellowCurve2.jpg)
 ![Annotated 5](./test_images/O_solidYellowLeft.jpg)
