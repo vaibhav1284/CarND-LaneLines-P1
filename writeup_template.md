@@ -3,7 +3,8 @@
 
 **Finding Lane Lines on the Road**
 
-This project was developed in python using openCV libraries in jupyter notebook. The code uses predefined functions to achieve the project goals.
+This project was developed in python using openCV libraries in jupyter notebook. 
+The code uses predefined and custom functions to achieve the project goals.
 
 <img src="test_images/solidYellowCurve2.jpg" width="480" alt="Image3" />
 
